@@ -1,0 +1,58 @@
+<!-- 
+Daniel Thompson
+Project 2
+10-1-23
+ -->
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Daniels Cookbook</title>
+    <link rel="stylesheet" href="./css/project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <h3 class="title">Daniels Cookbook</h3>
+    </header>
+
+    <nav>
+        <!-- <div class="dropdown">
+        <button>Menu</button> -->
+            <ul>
+                <div class="dropdown-content">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Chili.html">Chili</a></li>
+                <li><a href="cajun orzo and sausage.html">Cajun Orzo and Sausage</a></li>
+                <li><a href="Shawarma chicken and orzo skillet.html">Shawarma Chicken and Orzo Skillet</a></li>
+                <li><a href="Ramen Noodle Salad.html">Ramen Noodle Salad</a></li>
+                <li><a href="About_me.html">About Me</a></li>
+                <li><a href="contact me.html">Contact Me</a></li>
+                <!-- </div> -->
+            </ul>
+        <!-- </div> -->
+    </nav>
+
+    <aside>
+        <img src="img/wooden spoons.png" alt="Various wooden spoons arranged together" title="Wooden Cookware">
+    </aside>
+
+    <main>  
+            <h1 onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Welcome!</h1>
+
+            <p>This is my where I am keeping my personal collection of recipes. No more searching through chat logs, cook books, web history and loose sheets of paper to make my favorite meals. Starting off with just four(4!) recipes, they are some of my favorite recent new creations I have enjoyed. Looking forward to adding more. This site is certainly self-serving, however anyone is welcome to make use of these recipes and enjoy what I've shared. If you're unsure where to start I would suggest the <a href="Chili.html">Chili</a>, it's a simple recipe with a lot of room for error and experimentation. </p>
+  
+    </main>
+
+    <footer>
+        <p>Daniel Thompson 2023</p>
+    </footer>
+    
+</body>
+
+</html>
